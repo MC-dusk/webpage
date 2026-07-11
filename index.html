@@ -1,88 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<!-- <meta http-equiv="X-Frame-Options" content="deny"/> -->
-		<!-- <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'"/> -->
-		<meta name="referrer" content="no-referrer">
-		<link rel="icon" type="image/png" sizes="32x32" href="./images/me.jpg"/>
-		<title>dusk index</title>
-		<style>body {
-			background:url(./images/bg1.webp) no-repeat center center;
-			background-size:cover;
-			background-attachment:scroll;
-			background-color:#CCCCCC;
-			text-align:center;
-			}</style>
-		<style type="text/css">a {text-decoration:none; color:inherit;}
-			a:hover {color:#aa398e; text-decoration:none;}
-			h1 {color:#EFFF7D; size:+3;}
-			h2 {color:#50552e; letter-spacing:2px;}
-			h3 {color:#EFFF7D; letter-spacing:2px;}
-			h4 {color:#EFFF7D; letter-spacing:2px;}
-			/* iframe {display: none;} */
-			</style>
-		<script type="text/javascript" defer>
-			if (window.top !== window.self) {
-				while (true) {
-					alert("IN IFRAME");
-				}
-			document.body.innerHTML = '404';
-			document.body.style.display = 'none';
-			window.top.location.href = 'about:blank';
-			}
-			function MM_swapImgRestore() { //v3.0
-				var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-			}
-			function MM_preloadImages() { //v3.0
-				var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-				var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-					if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-			}
-			function MM_findObj(n, d) { //v4.01
-				var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-					d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-				if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-				for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-				if(!x && d.getElementById) x=d.getElementById(n); return x;
-			}
-			function MM_swapImage() { //v3.0
-				var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-					if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-			}
-		</script>
-	</head>
-	<body onLoad="MM_preloadImages('images/bilibili1.png','images/acfun1.png','images/github1.png','images/mcbbs1.png','images/midishow1.png','images/twitter1.png','images/youtube1.png','images/zhihu1.png','images/weibo1.png')">
-		<br/>
-		<br/>
-		<br/>
-		<p><img src="./images/id3.webp" alt="PUBG"/></p>
-		<h2>山一程，水一程，身向榆关那畔行，夜深千帐灯。<br/>风一更，雪一更，聒碎乡心梦不成，故园无此声。</h2>
-		<p><img src="./images/id4.webp" alt="scene"/></p>
-		<h1><a href="media.html">☆ V I S U A L ☆</a></h1>
-		<p><video controls loop autoplay width="800" height="450" src="./videos/mc.mp4"></video></p>
-		<iframe frameborder="no" marginwidth="0" marginheight="0" width=490 height=86 src="//music.163.com/outchain/player?type=2&id=493911&auto=1&height=66"></iframe></br>
-		<!-- <p><audio controls loop autoplay src="./audios/audio.mp3"></audio></p> -->
-		<iframe src="https://www.taptap.com/widget/162251?platform=android" frameborder="0" width="470px" height="90px"></iframe></br>
-		<iframe src="https://store.steampowered.com/widget/1928870/" frameborder="0" width="646" height="190"></iframe>
-		<h1><a href="H5.html">☆ A W E S O M E ☆</a></h1>
-		<p>
-			<a href="https://www.bilibili.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bilibili','','images/bilibili1.png',1)"><img src="images/bilibili.png" alt="bilibili" width="120" height="120" id="bilibili"></a>
-			<a href="https://www.acfun.cn" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('acfun','','images/acfun1.png',1)"><img src="images/acfun.png" alt="acfun" width="120" height="120" id="acfun"></a>
-			<a href="https://github.com/MC-dusk/MC-dusk.github.io" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('github','','images/github1.png',1)"><img src="images/github.png" alt="github" width="120" height="120" id="github"></a>
-			<a href="https://www.mcbbs.net" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mcbbs','','images/mcbbs1.png',1)"><img src="images/mcbbs.png" alt="mcbbs" width="120" height="120" id="mcbbs"></a>
-			<a href="https://www.midishow.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('midishow','','images/midishow1.png',1)"><img src="images/midishow.png" alt="midishow" width="120" height="120" id="midishow"></a>
-			<a href="https://twitter.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter','','images/twitter1.png',1)"><img src="images/twitter.png" alt="twitter" width="120" height="120" id="twitter"></a>
-			<a href="https://www.youtube.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('youtube','','images/youtube1.png',1)"><img src="images/youtube.png" alt="youtube" width="120" height="120" id="youtube"></a>
-			<a href="https://www.zhihu.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('zhihu','','images/zhihu1.png',1)"><img src="images/zhihu.png" alt="zhihu" width="120" height="120" id="zhihu"></a>
-			<a href="https://weibo.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('weibo','','images/weibo1.png',1)"><img src="images/weibo.png" alt="weibo" width="120" height="120" id="weibo"></a>
-		</p>
-		<p><img src="images/wx3.webp" alt="wx"/><img src="images/bjh3.webp" alt="bjh"/></p>
-		<h1><a href="redirect.html">☆ P O R T A L ☆</a></h1>
-		<p><img src="https://tool.lu/netcard/" alt="IP" referrerpolicy="no-referrer"/></p>
-		<!-- <h3><a href="https://badges.toozhao.com/stats/01G6ZJY3322Y59H9X1J3XHN2M5"><img src="https://badges.toozhao.com/badges/01G6ZJY3322Y59H9X1J3XHN2M5/green.svg" alt="stats"/></a> 请使用桌面版网站浏览以获得最佳体验</h3> -->
-		<h3><img src="https://visitor-badge.laobi.icu/badge?page_id=m416.asia.vitepress-nav.1" alt="visitor badge"> 请使用桌面版网站浏览以获得最佳体验</h3>
-		<div style="position:fixed; top:0%; left:0%; width:100%; height:60px; background:antiquewhite;"><h1 style="color:#79a4bd; margin:6px 0 0 0"><a href="index.html">☆ W E L C O M E &nbsp; T O &nbsp; D U S K ☆</a></h1></div>
-		<h4>© 2020-2026 All Lefts Reversed</h4>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-Frame-Options" content="deny"/> -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'"/> -->
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/me.jpg" />
+    <title>dusk index</title>
+    <style>
+      body {
+        background: url(./images/bg1.webp) no-repeat center center;
+        background-size: cover;
+        background-attachment: scroll;
+        background-color: #cccccc;
+        text-align: center;
+      }
+    </style>
+    <style type="text/css">
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        color: #aa398e;
+        text-decoration: none;
+      }
+      h1 {
+        color: #efff7d;
+        size: +3;
+      }
+      h2 {
+        color: #50552e;
+        letter-spacing: 2px;
+      }
+      h3 {
+        color: #efff7d;
+        letter-spacing: 2px;
+      }
+      h4 {
+        color: #efff7d;
+        letter-spacing: 2px;
+      }
+      /* iframe {display: none;} */
+    </style>
+    <script type="text/javascript" defer>
+      if (window.top !== window.self) {
+        while (true) {
+          alert('IN IFRAME')
+        }
+        document.body.innerHTML = '404'
+        document.body.style.display = 'none'
+        window.top.location.href = 'about:blank'
+      }
+      function MM_swapImgRestore() {
+        //v3.0
+        var i,
+          x,
+          a = document.MM_sr
+        for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc
+      }
+      function MM_preloadImages() {
+        //v3.0
+        var d = document
+        if (d.images) {
+          if (!d.MM_p) d.MM_p = new Array()
+          var i,
+            j = d.MM_p.length,
+            a = MM_preloadImages.arguments
+          for (i = 0; i < a.length; i++)
+            if (a[i].indexOf('#') != 0) {
+              d.MM_p[j] = new Image()
+              d.MM_p[j++].src = a[i]
+            }
+        }
+      }
+      function MM_findObj(n, d) {
+        //v4.01
+        var p, i, x
+        if (!d) d = document
+        if ((p = n.indexOf('?')) > 0 && parent.frames.length) {
+          d = parent.frames[n.substring(p + 1)].document
+          n = n.substring(0, p)
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n]
+        for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n]
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document)
+        if (!x && d.getElementById) x = d.getElementById(n)
+        return x
+      }
+      function MM_swapImage() {
+        //v3.0
+        var i,
+          j = 0,
+          x,
+          a = MM_swapImage.arguments
+        document.MM_sr = new Array()
+        for (i = 0; i < a.length - 2; i += 3)
+          if ((x = MM_findObj(a[i])) != null) {
+            document.MM_sr[j++] = x
+            if (!x.oSrc) x.oSrc = x.src
+            x.src = a[i + 2]
+          }
+      }
+    </script>
+  </head>
+  <body onLoad="MM_preloadImages('images/bilibili1.png','images/acfun1.png','images/github1.png','images/mcbbs1.png','images/midishow1.png','images/twitter1.png','images/youtube1.png','images/zhihu1.png','images/weibo1.png')">
+    <br />
+    <br />
+    <br />
+    <p><img src="./images/id3.webp" alt="PUBG" /></p>
+    <h2>山一程，水一程，身向榆关那畔行，夜深千帐灯。<br />风一更，雪一更，聒碎乡心梦不成，故园无此声。</h2>
+    <p><img src="./images/id4.webp" alt="scene" /></p>
+    <h1><a href="media.html">☆ V I S U A L ☆</a></h1>
+    <p><video controls loop autoplay width="800" height="450" src="./videos/mc.mp4"></video></p>
+    <iframe frameborder="no" marginwidth="0" marginheight="0" width="490" height="86" src="//music.163.com/outchain/player?type=2&id=493911&auto=1&height=66"></iframe><br />
+    <!-- <p><audio controls loop autoplay src="./audios/audio.mp3"></audio></p> -->
+    <iframe src="https://www.taptap.com/widget/162251?platform=android" frameborder="0" width="470px" height="90px"></iframe><br />
+    <iframe src="https://store.steampowered.com/widget/1928870/" frameborder="0" width="646" height="190"></iframe>
+    <h1><a href="H5.html">☆ A W E S O M E ☆</a></h1>
+    <p>
+      <a href="https://www.bilibili.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('bilibili','','images/bilibili1.png',1)"><img src="images/bilibili.png" alt="bilibili" width="120" height="120" id="bilibili" /></a>
+      <a href="https://www.acfun.cn" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('acfun','','images/acfun1.png',1)"><img src="images/acfun.png" alt="acfun" width="120" height="120" id="acfun" /></a>
+      <a href="https://github.com/MC-dusk/MC-dusk.github.io" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('github','','images/github1.png',1)"><img src="images/github.png" alt="github" width="120" height="120" id="github" /></a>
+      <a href="https://www.mcbbs.net" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('mcbbs','','images/mcbbs1.png',1)"><img src="images/mcbbs.png" alt="mcbbs" width="120" height="120" id="mcbbs" /></a>
+      <a href="https://www.midishow.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('midishow','','images/midishow1.png',1)"><img src="images/midishow.png" alt="midishow" width="120" height="120" id="midishow" /></a>
+      <a href="https://twitter.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter','','images/twitter1.png',1)"><img src="images/twitter.png" alt="twitter" width="120" height="120" id="twitter" /></a>
+      <a href="https://www.youtube.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('youtube','','images/youtube1.png',1)"><img src="images/youtube.png" alt="youtube" width="120" height="120" id="youtube" /></a>
+      <a href="https://www.zhihu.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('zhihu','','images/zhihu1.png',1)"><img src="images/zhihu.png" alt="zhihu" width="120" height="120" id="zhihu" /></a>
+      <a href="https://weibo.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('weibo','','images/weibo1.png',1)"><img src="images/weibo.png" alt="weibo" width="120" height="120" id="weibo" /></a>
+    </p>
+    <p><img src="images/wx3.webp" alt="wx" /><img src="images/bjh3.webp" alt="bjh" /></p>
+    <h1><a href="redirect.html">☆ P O R T A L ☆</a></h1>
+    <p><img src="https://tool.lu/netcard/" alt="IP" referrerpolicy="no-referrer" /></p>
+    <!-- <h3><a href="https://badges.toozhao.com/stats/01G6ZJY3322Y59H9X1J3XHN2M5"><img src="https://badges.toozhao.com/badges/01G6ZJY3322Y59H9X1J3XHN2M5/green.svg" alt="stats"/></a> 请使用桌面版网站浏览以获得最佳体验</h3> -->
+    <h3><img src="https://visitor-badge.laobi.icu/badge?page_id=m416.asia.vitepress-nav.1" alt="visitor badge" /> 请使用桌面版网站浏览以获得最佳体验</h3>
+    <div style="position: fixed; top: 0%; left: 0%; width: 100%; height: 60px; background: antiquewhite">
+      <h1 style="color: #79a4bd; margin: 6px 0 0 0"><a href="index.html">☆ W E L C O M E &nbsp; T O &nbsp; D U S K ☆</a></h1>
+    </div>
+    <h4>© 2020-2026 All Lefts Reversed</h4>
+  </body>
 </html>
